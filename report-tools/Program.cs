@@ -33,7 +33,7 @@ Fill(paragraphs[5], "GitHub网址：https://github.com/zhangyuxin666/cn.edu.sicn
 string[] implementation = [
     "一、开发环境与方案", 
     "开发工具：Android Studio；构建环境：JBR 25、Gradle 9.5.0、Android Gradle Plugin 9.3.0；Android SDK Platform API 37、Build Tools 36.0.0。", 
-    "创建原生 Java Android 工程，包名 edu.sicnu.multilingualhello；界面全部在 MainActivity.buildScreen() 中用 ScrollView、LinearLayout、TextView、ImageView 和 Button 创建，没有使用 res/layout 布局文件。", 
+    "创建原生 Java Android 工程，包名 cn.edu.sicnu.stu.zhangyuxin.first；界面全部在 MainActivity.buildScreen() 中用 ScrollView、LinearLayout、TextView、ImageView 和 Button 创建，没有使用 res/layout 布局文件。",
     "桌面应用名与页面顶部标题均设置为“张雨鑫2024110548”（title.setText(R.string.app_name)）；使用 adaptive icon，自绘对白框和彩色条纹，替换默认启动图标。", 
     "二、三语交互核心代码与说明", 
     "private static final String[] GREETINGS = {\"你好，世界！\", \"Hello, World!\", \"こんにちは、世界！\"};", 
@@ -45,9 +45,9 @@ string[] implementation = [
     "首次构建报错：SDK location not found。原因是命令行缺少 ANDROID_HOME；设置为 C:\\Users\\zyx15\\AppData\\Local\\Android\\Sdk 后重新构建。", 
     "执行 :app:assembleDebug，结果 BUILD SUCCESSFUL；生成 app/build/outputs/apk/debug/app-debug.apk。", 
     "已安装 Android 35 x86_64 系统镜像并创建 HelloWorld_API35 模拟器；adb devices -l 显示 emulator-5554，状态为 device。", 
-    "adb install -r app-debug.apk 返回 Success；adb shell am start -n edu.sicnu.multilingualhello/.MainActivity 成功启动；adb shell ls / 输出 acct、data、system 等根目录项。", 
+    "adb install -r app-debug.apk 返回 Success；adb shell am start -n cn.edu.sicnu.stu.zhangyuxin.first/.MainActivity 成功启动；adb shell ls / 输出 acct、data、system 等根目录项。",
     "根据 uiautomator dump 的按钮边界，用 adb shell input tap 540 1340 切到英语，再以 860 1340 切到日语；截图及界面 XML 均已保存到 evidence 目录。", 
-    "四、代码和资源位置：app/src/main/java/edu/sicnu/multilingualhello/MainActivity.java；app/src/main/res/drawable-nodpi；app/src/main/res/mipmap-anydpi-v26。"
+    "四、代码和资源位置：app/src/main/java/cn/edu/sicnu/stu/zhangyuxin/first/MainActivity.java；app/src/main/res/drawable-nodpi；app/src/main/res/mipmap-anydpi-v26。"
 ];
 for (var i = 0; i < implementation.Length; i++) Fill(paragraphs[32 + i], implementation[i], i is 0 or 4 or 10);
 

@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'edu.sicnu.multilingualhello'
+    namespace 'cn.edu.sicnu.stu.zhangyuxin.first'
     compileSdk 37
 
     defaultConfig {
-        applicationId 'edu.sicnu.multilingualhello'
+        applicationId 'cn.edu.sicnu.stu.zhangyuxin.first'
         minSdk 26
         targetSdk 36
         versionCode 1

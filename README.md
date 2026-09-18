@@ -17,7 +17,7 @@ Android 原生 Java 应用，界面完全由 `MainActivity.java` 动态创建，
 ```powershell
 adb devices
 adb install -r app/build/outputs/apk/debug/app-debug.apk
-adb shell am start -n edu.sicnu.multilingualhello/.MainActivity
+adb shell am start -n cn.edu.sicnu.stu.zhangyuxin.first/.MainActivity
 adb shell ls /
 adb shell input tap 540 1340  # English
 adb shell input tap 860 1340  # 日本語

@@ -1,4 +1,4 @@
-package edu.sicnu.multilingualhello;
+package cn.edu.sicnu.stu.zhangyuxin.first;
 
 import android.app.Activity;
 import android.graphics.Color;
