@@ -34,7 +34,7 @@ string[] implementation = [
     "一、开发环境与方案", 
     "开发工具：Android Studio；构建环境：JBR 25、Gradle 9.5.0、Android Gradle Plugin 9.3.0；Android SDK Platform API 37、Build Tools 36.0.0。", 
     "创建原生 Java Android 工程，包名 edu.sicnu.multilingualhello；界面全部在 MainActivity.buildScreen() 中用 ScrollView、LinearLayout、TextView、ImageView 和 Button 创建，没有使用 res/layout 布局文件。", 
-    "应用标题设置为“张雨鑫2024110548”；使用 adaptive icon，自绘对白框和彩色条纹，替换默认启动图标。", 
+    "桌面应用名与页面顶部标题均设置为“张雨鑫2024110548”（title.setText(R.string.app_name)）；使用 adaptive icon，自绘对白框和彩色条纹，替换默认启动图标。", 
     "二、三语交互核心代码与说明", 
     "private static final String[] GREETINGS = {\"你好，世界！\", \"Hello, World!\", \"こんにちは、世界！\"};", 
     "private static final int[] FLAGS = {R.drawable.flag_china, R.drawable.flag_america, R.drawable.flag_japan};", 

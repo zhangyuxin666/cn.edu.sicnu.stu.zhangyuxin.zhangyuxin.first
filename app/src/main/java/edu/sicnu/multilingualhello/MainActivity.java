@@ -54,7 +54,7 @@ public class MainActivity extends Activity {
         scroll.addView(column);
 
         TextView title = new TextView(this);
-        title.setText("多语言 Hello World");
+        title.setText(R.string.app_name);
         title.setTextColor(navy);
         title.setTextSize(26);
         title.setTypeface(Typeface.DEFAULT, Typeface.BOLD);
